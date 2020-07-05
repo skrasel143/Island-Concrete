@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: capitalize;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  #container{
+    margin: 5% 5%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+  .name{
+    color: coral;
+    font-size: 40px;
+  }
+  
+  p{
+    font-size: 2rem;
+    color: #555555;
+    text-align: justify;
+    margin-top: 5%;
+    letter-spacing: .12rem;
+    line-height: 1.3em;
+  }
+
+  .top-section,
+  .biography{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 40px rgb(172, 233, 167);
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .button {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    background-image: linear-gradient(45deg, rgb(192, 231, 101), rgb(221, 16, 129));
+    padding: 8px 20px;
+    margin-top: 20px;
+  }
+  
+  .social a:hover {
+    background-image: linear-gradient(45deg, rgb(230, 182, 52), rgb(17, 218, 33));
+  }
+
+  h2{
+    color: #7448eb;
+    text-align: center;
+    font-size: 35px;
+    margin: 40px;
+  }
+
+  .work{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 40px rgb(53, 33, 238);
+    
+  }
+
+  .experiences .half-width:hover,
+  .client:hover,
+  .work:hover,
+  .biography:hover, 
+  .top-section:hover{
+    box-shadow: none;
+    cursor: pointer;
+    transition: 1s;
+
+  }
+  .work-image {
+    box-shadow: 10px 20px 40px gray;
+    transition: 1s;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .work-image:hover {
+    box-shadow: none;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .half-width,
+  .work-image{
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 5%;
+  }
+  
+  .article-head{
+    color: rgb(6, 65, 99);
+    font-size: 25px;
+    padding: 15px;
+    padding-left: 0;
+    
+  }
+  .title{
+    font-size: 13px;
+    color: #fd1ca7;
+    padding: 5px;
+    font-weight: 700;
+  }
+  
+  .experiences{
+    box-shadow: none;
+    display: flex;
+  }
+  
+  .experiences .half-width {
+    border-image: linear-gradient(180deg, #fab2c6, #ec0679);
+    border-image-slice: 1;
+    border-left: 10px solid;
+    box-shadow: 10px 10px 40px rgb(172, 116, 158);
+    margin-right: 10px;
+  }
+  
+  .client{
+    text-align: center;
+    height: 400px;
+    box-shadow: 10px 10px 40px rgb(63, 119, 184);
+    background-image: url(images/client.png);
+    margin-top: 30px;
+    padding: 40px;
+  }
+  .client h4{
+    font-size: 18px;
+    color: darkblue;
+    padding: 10px;
+  }
+  .client p{
+    text-align: center;
+    color: #111;
+  }
+
+  .fixMe{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 40%;
+    left: 0%;
+    padding: 10px;
+
+  }
+  .fb-icon{
+    background-image: url(images/fb-icon.png);
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 40px rgb(57, 75, 235);
+    transition: 1s;
+  }
+  .youtube-icon{
+    background-image: url(images/youtube-icon.png);
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 40px rgb(226, 66, 66);
+    transition: 1s;
+  }
+  .gmail-icon{
+    background-image: url(images/gmail-icon.png);
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 40px rgb(230, 165, 165);
+    transition: 1s;
+  }
+  .linkedin-icon{
+    background-image: url(images/linkedin-icon.png);
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 40px rgb(62, 142, 247);
+    transition: 1s;
+  }
+
+  button{
+    text-decoration: none;
+    padding: 10px;
+  }
+  button:hover{
+    box-shadow: none;
+    padding: 30px;
+    transition: 1s;
+    opacity: 1;
+
+    
+  }
+
+  #main-footer{
+    background-image: linear-gradient(180deg, rgba(150, 131, 221, 0.918), rgb(78, 204, 73));
+    padding: 0px;
+    margin-bottom: 20px;
+}
+#main-footer p{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
